@@ -1,0 +1,21 @@
+.zoom{
+    padding: 50px;
+    transition: transform .2s;
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.zoom:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+body{
+    text-align: center;
+}
+
+footer{
+    padding-top: 100px;
+}
